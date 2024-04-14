@@ -1,0 +1,60 @@
+:root {
+    --font-sans-serif: Poppins, sans-serif;
+    --font-serif: Abyssinica SIL, serif;
+    --black: #000;
+    --white: #ffffff;
+    --yellow: #ffc524;
+    --orange: #F0935d;
+    --blue: #9ae4e5;
+    --green: #86d5a0;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, 
+  *:before, 
+  *:after {
+    box-sizing: inherit;
+  }
+
+/**typography */
+body {
+    font-family: var(--font-sans-serif);
+    color: var(--black);
+}
+
+a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+/** images */
+img {
+    display: block;
+}
+
+.component img {
+    max-width: initial;
+}
+
+.component__img {
+    border: 1px solid var(--yellow);
+}
