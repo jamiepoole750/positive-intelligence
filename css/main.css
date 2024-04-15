@@ -58,3 +58,65 @@ img {
 .component__img {
     border: 1px solid var(--yellow);
 }
+
+/** nav bar */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.nav-bar-list {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    font-size: medium;
+    margin: 0;
+  } 
+  
+  .nav-item {
+    margin: 20px;
+  }
+
+  .nav-button {
+    display: inline-block;
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    color: white;
+    background: black;
+    margin: 20px;
+  }
+
+/** body */
+.card {
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: left;
+    height: 390px;
+    width: 300px;
+    background: var(--yellow);
+    margin: 1rem 0;
+}
+
+.card-img {
+    max-height: 200px;
+    margin-left: 25%;
+    margin-top: 25%;
+}
+
+.card__two {
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: left;
+    height: 390px;
+    width: 300px;
+    background: var(--blue);
+    margin: 1rem 0;
+}
+
+.card-img__two {
+    max-height: 200px;
+    margin-left: 10px;
+    margin-top: 25%;
+}
