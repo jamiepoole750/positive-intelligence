@@ -120,3 +120,66 @@ img {
     margin-left: 10px;
     margin-top: 25%;
 }
+
+.card__three {
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: left;
+    height: 600px;
+    width: 600px;
+    background: var(--orange);
+    margin: 1rem 0;
+}
+
+.card-img__three {
+    max-height: 270px;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+/** card three percentages */
+
+.percentage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+    
+}
+
+.percentage-number {
+    font-size: 45px;
+    font-family: var(--font-sans-serif);
+    margin: 0px;
+    padding-top: 50px;
+}
+
+.percentage-statement {
+    font-size: 18px;
+    font-family: var(--font-serif);
+    margin: 0px;
+    padding: 0px;
+}
+
+/** as featured in */
+.featured-title {
+    font-family: var(--font-sans-serif);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.featured {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    
+}
+
+.featured-logo {
+    margin: 10px;
+}
+
+.featured-img img{
+    max-width: 22rem;
+}
+   
+
