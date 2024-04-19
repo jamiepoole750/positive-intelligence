@@ -78,7 +78,7 @@ img {
     margin: 20px;
   }
 
-  .nav-button {
+  .button {
     display: inline-block;
     border-radius: 2rem;
     padding: 0.5rem 1.5rem;
@@ -88,7 +88,7 @@ img {
     margin: 20px;
   }
 
-/** body */
+/** body-atoms*/
 .card {
     border-radius: 1rem;
     padding: 1rem;
@@ -160,6 +160,16 @@ img {
     padding: 0px;
 }
 
+/** body-molecule */
+.body-content {
+    display: flex;
+    justify-content: center;
+}
+
+.card__three {
+    margin: 10px;
+}
+
 /** as featured in */
 .featured-title {
     font-family: var(--font-sans-serif);
@@ -182,4 +192,49 @@ img {
     max-width: 22rem;
 }
    
+
+/** read-more */
+.read-more__para {
+    font-family: var(--font-serif);
+    font-size: 14px;
+}
+
+.button {
+    font-size: 11px;
+}
+
+/** explore-molecule */
+.explore-content {
+    display: flex;
+    justify-content: center;
+}
+
+.card__four {
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: left;
+    height: 500px;
+    width: 470px;
+    background: var(--blue);
+    padding: 70px 0px 0px 50px;
+}
+
+.card__four-img {
+    max-height: 25%;
+}
+
+.read-more__para {
+    max-width: 18rem;
+}
+
+.card__five {
+    margin-left: 10px;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: left;
+    height: 500px;
+    width: 470px;
+    background: rgb(154, 228, 229, 0.5);
+    padding: 70px 0px 0px 50px;
+}
 
