@@ -8,16 +8,120 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/main.css">
+        <script src="https://kit.fontawesome.com/718d51ccdb.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
         <h1>Web Components</h1>
 
         <h2> Typography Defaults</h2>
+            <h3> Primary - Poppins, Weight: 600</h3>
+            <h3 class="typo-default"> Secondary - Abyssinica, Weight: 400</h3>
 
+        <article class="component">
+            <h3 class="component__headings">headings </h3>
+            <div class="component__img"> 
+                <img 
+                srcset="img/cover-main.png 2x"
+                scr="img/cover-main.png"
+                alt="Introduction">
+
+                <img 
+                srcset="img/body-main.png 2x"
+                src="img/body-main.png"
+                alt="Body Main Organism">
+
+                <img 
+                srcset="img/success-header.png 2x"
+                src="img/success-header.png"
+                alt="Mental Fitness Header">
+
+                <img 
+                srcset="img/success-quote.png 2x"
+                src="img/success-quote.png"
+                alt="Success Quote">
+
+                <img 
+                srcset="img/discover-header.png 2x"
+                src="img/discover-header.png"
+                alt="Discover Header">
+
+                <img 
+                srcset="img/explore-header.png 2x"
+                src="img/explore-header.png"
+                alt="Explore Header">
+
+                <img 
+                srcset="img/business-header.png 2x"
+                src="img/business-header.png"
+                alt="For Business Header">
+            </div> 
+
+            <div class="component__code">
+                <h1>Your mind is your best friend. But it can also be your worst enemy.</h1>
+                <h2>Experience immediate and sustained improvements in both your wellbeing and performance.</h2>
+                <h3>Mental Fitness Success Story</h3>
+                <h3>"What we wanted was a program that was going to stick, and Positive Intelligence was the way to go for us. It was very much aligned with our core values."</h3>
+                <h3>Discover What's Holding You Back</h3>
+                <h3>Explore the Program</h3>
+                <h3>For Business</h3>
+            </div>
+        </article>
+
+        <article class="component">
+            <h3 class="component__headings">read-more-atoms</h3>
+
+            <div class="component__img">
+                <img srcset="img/success-paragraph.png 2x"
+                src="img/success-paragraph.png"
+                    alt="Success Paragraph">
+            </div>
+
+            <div class="component__code">
+                <h3 class="read-more__title">Mental Fitness Success Story</h3>
+                <p class="read-more__para">See how Turo drives a culture of employee development with Positive Intelligence Program.</p>
+                <p class="button">Read More</p>
+            </div>
+
+            <div class="component__img">
+                <img srcset="img/discovery-paragraph.png 2x"
+                src="img/discovery-paragraph.png"
+                    alt="Discover Paragraph">
+            </div>
+
+            <div class="component__code">
+                <h3 class="read-more__title">Discover What's Holding You Back</h3>
+                <p class="read-more__para">Saboteurs are the voices in your head that generate stress and negative emotions in the way you handle work and life’s challenges. They sabotage your potential for both happiness and performance.</p>
+                <p class="button">Discover Your Saboteurs</p>
+            </div> 
+
+            <div class="component__img">
+                <img srcset="img/explore-paragraph.png 2x"
+                src="img/explore-paragraph.png"
+                    alt="Success Paragraph">
+            </div>
+
+            <div class="component__code">
+                <h3 class="read-more__title">Explore the Program</h3>
+                <p class="read-more__para">Our PQ&reg; Program grows your three core mental fitness muscles within six weeks.  Breakthrough app delivers personalized daily practices that result in powerful new habits for a positive mind.</p>
+                <p class="button">Learn More</p>
+            </div> 
+
+            <div class="component__img">
+                <img srcset="img/explore-paragraph-2.png 2x"
+                src="img/explore-paragraph-2.png"
+                    alt="Success Paragraph 2">
+            </div>
+
+            <div class="component__code">
+                <h3 class="read-more__title">For Business</h3>
+                <p class="read-more__para">When a team focuses exclusively on performance, performance suffers due to prolonged stress, team friction, and low Emotional Intelligence (EQ).  Positive Intelligence maximizes both performance and wellbeing, while growing 17 of 18 EQ competencies.</p>
+                <p class="button">Learn More</p>
+            </div>
+        </article>
 
         <article class="components">
-            <h3 class="component__nav-bar">Nav Bar</h3>
+            <h3 class="component__headings">Nav Bar</h3>
             <div class="component__img">
                 <img 
                 srcset="img/main-nav.png 2x"
@@ -29,7 +133,7 @@
                 <div class="container">
                     <div class="nav-logo">
                         <a href="#!"> 
-                            <img src="img/nav-logo-image.png"
+                            <img src="img/pi-logo.png"
                             alt="Positive Intelligence Logo">
                         </a>
                     </div> 
@@ -40,14 +144,133 @@
                         <li><a href="#!" class="nav-item"> Science</a></li>
                         <li><a href="#!" class="nav-item"> Saboteurs</a></li>
                         <li><a href="#!" class="nav-item"> About</a></li>
-                        <li><a href="#!" class="button"> Get PQ</a></li>
+                        <li><a href="#!" class="nav-button"> Get PQ</a></li>
                     </ul>
                 </div>
             </div>
         </article>
+
+        <article class="component">
+            <h3 class="component__headings"> cover-molecules</h3>
+            <div class="component__img">
+                <img 
+                srcset="img/cover-section.png 2x"
+                src="img/cover-section.png"
+                    alt="Cover Page Part 1">
+
+                <img 
+                srcset="img/cover-section-2.png 2x"
+                src="img/cover-section-2.png"
+                    alt="Cover Page Part 2">
+            </div>
+
+            <div class="component__code">
+                <div class="cover-container">
+                    <h1 class="cover-title">Your mind is your best friend. But it can also be your worst enemy.</h1>
+                    <p class="cover-arrow"><i class="fa-solid fa-arrow-down"></i></p>
+                </div>
+
+                <div class="cover__section-main">
+                    <div class="cover__section">
+                        <p class="cover__info">Your mind is constantly sabotaging your potential for both performance and happiness. All your negative emotions, including stress, are the result of self-sabotage.</p>
+                        <img src="img/cover-image.gif" class="cover__img"
+                            alt="Person with Shapes Floating Around Head">
+                    </div>
+                    
+                    <div class="cover__section">
+                        <p class="cover__info">Our breakthrough, research-based tools strengthen the part of your brain that serves you and quiet the part that sabotages you. You handle life's challenges with a more positive mindset, and less stress. <br> We call this mental fitness.</p>
+                        <img src="img/cover-image-2.gif" class="cover__img"
+                            alt="Two cirles moving labeled self sabotage & self mastery">
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="component">
+            <h3 class="component__headings">cover-page-atoms</h3>
+            <div class="component__img"> 
+                <img 
+                srcset="img/cover-paragraph.png 2x"
+                src="img/cover-paragraph.png"
+                alt="Cover Paragraph 1">
+            </div> 
+           
+            <div class="component__code">
+                <p>Your mind is constantly sabotaging your potential for both performance and happiness. All your negative emotions, including stress, are the result of self-sabotage.</p>
+            </div>
+
+            <div class="component__img"> 
+                <img 
+                srcset="img/cover-paragraph-2.png 2x"
+                src="img/cover-paragraph-2.png"
+                alt="Cover Paragraph 2">
+            </div> 
+
+            <div class="component__code">
+                <p>Our breakthrough, research-based tools strengthen the part of your brain that serves you and quiet the part that sabotages you. You handle life's challenges with a more positive mindset, and less stress.</p>
+                <p>We call this mental fitness.</p>
+            </div>
+        </article>
+
+        <article class="component">
+            <h3 class="component__headings">body-molecule</h3>
+            <div class="component__img"> 
+                <img 
+                srcset="img/body-3.png 2x"
+                src="img/body-3.png"
+                alt="Body">
+            </div> 
+           
+            <div class="component__code">
+                <div class="body">
+                    <p class="body-tagline"> Shift the Balance in Your Mind</p>
+                    <h2 class="body-title">Experience immediate and sustained improvements in both your wellbeing and performance.</h2>
+                </div>
+
+                <div class="body-content">
+                    <div class="card">
+                        <p class="card__title">Boost Performance</p>
+                        <img class="card-img" src="img/body-image-2.png"
+                            alt="Girl on a Rocket">
+                    </div>
+
+                    <div class="card__three">
+                        <p class="card__title">Improve Wellbeing</p>
+                        <img class="card-img__three" src="img/body-image.png"
+                            alt="Person Sitting">
+    
+                        <div class="percentage">
+                            <div class="percentage-info">
+                                <p class="percentage-number">85%</p>
+                                <p class="percentage-statement">Increase Happiness</p>
+                            </div>
+    
+                            <div class="percentage-info">
+                                <p class="percentage-number">91%</p>
+                                <p class="percentage-statement">Manage Stress Better</p>
+                            </div>
+    
+                            <div class="percentage-info">
+                                <p class="percentage-number">83%</p>
+                                <p class="percentage-statement">Improve Self Confidence</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card__two">
+                        <p class="card__title">Strengthen <br> Relationships</p>
+                        <img class="card-img__two" src="img/body-image-3.png"
+                            alt="People Holding a Raindow">
+                    </div>
+                </div>
+               
+                <p class="body-survey">Based on survey results from cohort of &gt;2000 Positive Intelligence Program participants after six weeks of mental fitness training</p>
+            
+            </div>
+        </article>
         
         <article class="component">
-            <h3 class="component__body-main">body-atoms</h3>
+            <h3 class="component__headings">body-atoms</h3>
             <div class="component__img"> 
                 <img 
                 srcset="img/body-section-small.png 2x"
@@ -112,57 +335,7 @@
         </article>
 
         <article class="component">
-            <h3 class="component__body-main">body-molecule</h3>
-            <div class="component__img"> 
-                <img 
-                srcset="img/body-section.png 2x"
-                src="img/body-section.png"
-                alt="Body">
-            </div> 
-           
-            <div class="component__code">
-                <div class="body-content">
-                    <div class="card">
-                        <p class="card__title">Boost Performance</p>
-                        <img class="card-img" src="img/body-image-2.png"
-                            alt="Girl on a Rocket">
-                    </div>
-
-                    <div class="card__three">
-                        <p class="card__title">Improve Wellbeing</p>
-                        <img class="card-img__three" src="img/body-image.png"
-                            alt="Person Sitting">
-    
-                        <div class="percentage">
-                            <div class="percentage-info">
-                                <p class="percentage-number">85%</p>
-                                <p class="percentage-statement">Increase Happiness</p>
-                            </div>
-    
-                            <div class="percentage-info">
-                                <p class="percentage-number">91%</p>
-                                <p class="percentage-statement">Manage Stress Better</p>
-                            </div>
-    
-                            <div class="percentage-info">
-                                <p class="percentage-number">83%</p>
-                                <p class="percentage-statement">Improve Self Confidence</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card__two">
-                        <p class="card__title">Strengthen <br> Relationships</p>
-                        <img class="card-img__two" src="img/body-image-3.png"
-                            alt="People Holding a Raindow">
-                    </div>
-                </div>
-            </div>
-
-        </article>
-
-        <article class="component">
-            <h3 class="component__featured">featured</h3>
+            <h3 class="component__headings">featured</h3>
             <div class="component__img"> 
                 <img 
                 srcset="img/featured.png 2x"
@@ -198,86 +371,77 @@
         </article>
 
         <article class="component">
-            <h3 class="component__sucess">read-more</h3>
+            <h3 class="component__headings"> success-molecule</h3>
 
             <div class="component__img">
-                <img srcset="img/success-paragraph.png 2x"
-                src="img/success-paragraph.png"
-                    alt="Success Paragraph">
+                    <img 
+                    srcset="img/success.png 2x"
+                    src="img/success.png"
+                        alt="Mental Success Story with Quotes">
             </div>
 
-            <div class="component-code">
-                <h3 class="read-more__title">Mental Fitness Success Story</h3>
-                <p class="read-more__para">See how Turo drives a culture of employee development with Positive Intelligence Program.</p>
-                <p class="button">Read More</p>
-            </div>
+            <div class="component__code">
+                <div class="success">
+                    <div class="success__info-img">
+                        <img class="success__img" src="img/success-image.png" 
+                            alt="Turbo Logo + Positive Intelligence Logo">
+                    </div>
 
-            <div class="component__img">
-                <img srcset="img/discovery-paragraph.png 2x"
-                src="img/discovery-paragraph.png"
-                    alt="Discover Paragraph">
-            </div>
+                    <div class="success__info">
+                        <h3 class="read-more__title">Mental Fitness Success Story</h3>
+                        <p class="read-more__para">See how Turo drives a culture of employee development with Positive Intelligence Program.</p>
+                        <p class="button">Read More</p>
+                    </div>
+                </div>
 
-            <div class="component-code">
-                <h3 class="read-more__title">Discover What's Holding You Back</h3>
-                <p class="read-more__para">Saboteurs are the voices in your head that generate stress and negative emotions in the way you handle work and life’s challenges. They sabotage your potential for both happiness and performance.</p>
-                <p class="button">Discover Your Saboteurs</p>
-            </div> 
-
-            <div class="component__img">
-                <img srcset="img/explore-paragraph.png 2x"
-                src="img/explore-paragraph.png"
-                    alt="Success Paragraph">
-            </div>
-
-            <div class="component-code">
-                <h3 class="read-more__title">Explore the Program</h3>
-                <p class="read-more__para">Our PQ&reg; Program grows your three core mental fitness muscles within six weeks.  Breakthrough app delivers personalized daily practices that result in powerful new habits for a positive mind.</p>
-                <p class="button">Learn More</p>
-            </div> 
-
-            <div class="component__img">
-                <img srcset="img/explore-paragraph-2.png 2x"
-                src="img/explore-paragraph-2.png"
-                    alt="Success Paragraph 2">
-            </div>
-
-            <div class="component-code">
-                <h3 class="read-more__title">For Business</h3>
-                <p class="read-more__para">When a team focuses exclusively on performance, performance suffers due to prolonged stress, team friction, and low Emotional Intelligence (EQ).  Positive Intelligence maximizes both performance and wellbeing, while growing 17 of 18 EQ competencies.</p>
-                <p class="button">Learn More</p>
+                <div class="list-wrapper">
+                    <ul class="list">
+                        <li class="item"><div class="content"><h3>"People are seeing the benefits, and they're talking about it with others. I haven't seen that kind of dynamic in many other benefits we put in place for our team. I think it's a great sign that this program is resonating, it's impactful, and it's positive."</h3></div>
+                            <p class="quote-author">Andre Haddad <br> CEO, Turo</p></li>
+                        <li class="item"><div class="content"><h3>"What we wanted was a program that was going to stick, and Positive Intelligence was the way to go for us. It was very much aligned with our core values."</h3></div>
+                            <p class="quote-author">Lorie Boyd <br> CPO, Turo</p></li>
+                        <li class="item"><div class="content"><h3>"Most change initiatives fizzle because of our mental saboteurs. Shirzad gives us the tools to conquer them and creative positive change that lasts."</h3></div>
+                            <p class="quote-author">Dean Morton <br>Former COO, Hewlett-Packard</p></li>
+                        <li class="item"><div class="content"><h3>"Working with Shirzad has had a profound impact on me. The tools and techniques to raise PQ are simple, concrete and pragmatic, yet incredibly effective. They help me remain focused on what truly matters and grounded amidst the swirl of daily life."</h3></div>
+                            <p class="quote-author">Jim Lanzone <br> CEO, Yahoo, Inc.</p></li>
+                        <li class="item"><div class="content"><h3>"This has been an extraordinary gift for my team. The concepts are phenomenal — a true revelation in the way to think and handle work and life's challenges. Besides the lasting impact on myself, I've loved hearing how many people this has touched in my company."</h3></div>
+                            <p class="quote-author">Jessica Herrin <br> CEO, Stella &#38; Dot</p></li>
+                        <li class="item"><div class="content"><h3>" Positive Intelligence can change your life and transform your business. A real game-changer."</h3></div>
+                            <p class="quote-author">James D. White <br> Former CEO, Jamba Juice</p></li>
+                      </ul>
+                </div>
             </div>
         </article>
-        
+
         <article class="component">
-            <h3 class="component__cover-page">cover-page</h3>
-            <div class="component__img"> 
+            <h3 class="component__headings">discover-molecule</h3>
+
+            <div class="component__img">
                 <img 
-                srcset="img/cover-paragraph.png 2x"
-                src="img/cover-paragraph.png"
-                alt="Cover Paragraph 1">
-            </div> 
-           
-            <div class="component__code">
-                <p>Your mind is constantly sabotaging your potential for both performance and happiness. All your negative emotions, including stress, are the result of self-sabotage.</p>
+                    srcset="img/discovery.png 2x"
+                    src="img/discovery.png"
+                    alt="Discover Molecule">
             </div>
 
-            <div class="component__img"> 
-                <img 
-                srcset="img/cover-paragraph-2.png 2x"
-                src="img/cover-paragraph-2.png"
-                alt="Cover Paragraph 2">
-            </div> 
-
             <div class="component__code">
-                <p>Our breakthrough, research-based tools strengthen the part of your brain that serves you and quiet the part that sabotages you. You handle life's challenges with a more positive mindset, and less stress.</p>
-                <p>We call this mental fitness.</p>
+                <div class="discover__main">
+                    <div class="discover__section">
+                        <h3 class="read-more__header">Discover What's Holding You Back</h3>
+                        <p class="read-more__info">Saboteurs are the voices in your head that generate stress and negative emotions in the way you handle work and life’s challenges. They sabotage your potential for both happiness and performance.</p>
+                        <p class="button">Discover Your Saboteurs</p>
+                    </div>
+                
+                    <div class="discover__section">
+                        <img src="img/discovery-image.png" class="discover__img"
+                        alt="Angry Judge">
+                    </div>
+                </div>
             </div>
         </article>
 
         <article class="component">
             <h3 class="component__headings">explore-molecule</h3>
-            <div class="componet__img">
+            <div class="component__img">
                 <img srcset="img/explore.png 2x"
                 src="img/explore.png"
                     alt="Explore Additional Information">
@@ -305,54 +469,168 @@
         </article>
 
         <article class="component">
-            <h3 class="component__headings">headings </h3>
-            <div class="component__img"> 
+            <h3 class="component__headings">subscribe__molecule</h3>
+            <div class="component__img">
                 <img 
-                srcset="img/cover-main.png 2x"
-                scr="img/cover-main.png"
-                alt="Introduction">
+                srcset="img/subscribe.png 2x"
+                src="img/subscribe.png"
+                    alt="Subsciption Molecule">
+        </div>
+           
+            <div class="component__code">
+                <div class="sub-components">
+                    <div class="sub-subscribe">
+                        <h4 class="subscribe">Subscribe for more positivity in your inbox.</h4>
+                    
+                        <div class="subscribe__email">
+                            <p class="subscribe__name">Email</p>
+                            <p class="subscribe__arrow"><i class="fa-solid fa-arrow-right"></i></p>
+                        </div>
+                    </div>
 
-                <img 
-                srcset="img/body-main.png 2x"
-                src="img/body-main.png"
-                alt="Body Main Organism">
+                    <div class="sub">
+                        <div class="links">
+                            <div class="links__list">
+                                <p class="links__title">Program</p>
+                                <ul class="links__section">
+                                    <li class="links-item"><a href="#!"> For Individuals</a></li>
+                                    <li class="links-item"><a href="#!"> For Organizations</a></li>
+                                    <li class="links-item"><a href="#!"> For Coaches</a></li>
+                                    <li class="links-item"><a href="#!"> Find a Coach</a></li>
+                                </ul>
+                            </div>
 
-                <img 
-                srcset="img/success-header.png 2x"
-                src="img/success-header.png"
-                alt="Mental Fitness Header">
+                            <div class="links__list">
+                                <p class="links__title">Learn</p>
+                                <ul class="links__section">
+                                    <li class="links-item"><a href="#!"> Science</a></li>
+                                    <li class="links-item"><a href="#!"> Saboteurs</a></li>
+                                    <li class="links-item"><a href="#!"> Resources</a></li>
+                                </ul>
+                            </div>
 
-                <img 
-                srcset="img/success-quote.png 2x"
-                src="img/success-quote.png"
-                alt="Success Quote">
+                            <div class="links__list">
+                                <p class="links__title">Company</p>
+                                <ul class="links__section">
+                                    <li class="links-item"><a href="#!"> About</a></li>
+                                    <li class="links-item"><a href="#!"> Blog</a></li>
+                                    <li class="links-item"><a href="#!"> Careers</a></li>
+                                    <li class="links-item"><a href="#!"> Contact</a></li>
+                                    <li class="links-item"><a href="#!"> Support</a></li>
+                                </ul>
+                            </div>
 
-                <img 
-                srcset="img/discover-header.png 2x"
-                src="img/discover-header.png"
-                alt="Discover Header">
+                            <div class="links__list">
+                                <p class="links__title">Follow Us</p>
+                                <ul class="links__section">
+                                    <li class="links-item"><a href="#!"> LinkedIn <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                                    <li class="links-item"><a href="#!"> Facebook <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                                    <li class="links-item"><a href="#!"> Youtube <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </article>
 
-                <img 
-                srcset="img/explore-header.png 2x"
-                src="img/explore-header.png"
-                alt="Explore Header">
+        <article class="component">
+            <h3 class="component__headings">subscribe__atoms</h3>
 
+            <div class="component__img">
                 <img 
-                srcset="img/business-header.png 2x"
-                src="img/business-header.png"
-                alt="For Business Header">
-            </div> 
+                srcset="img/subscription-2.png 2x"
+                src="img/subscription-2.png"
+                    alt="Sign up For Subscription">
+            </div>
 
             <div class="component__code">
-                <h1>Your mind is your best friend. But it can also be your worst enemy.</h1>
-                <h2>Experience immediate and sustained improvements in both your wellbeing and performance.</h2>
-                <h3>Mental Fitness Success Story</h3>
-                <h3>"What we wanted was a program that was going to stick, and Positive Intelligence was the way to go for us. It was very much aligned with our core values."</h3>
-                <h3>Discover What's Holding You Back</h3>
-                <h3>Explore the Program</h3>
-                <h3>For Business</h3>
+                <h4 class="subscribe">Subscribe for more positivity in your inbox.</h4>
+                <div class="subscribe__email">
+                    <p class="subscribe__name">Email</p>
+                    <p class="subscribe__arrow"><i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+            </div>
+
+            <div class="component__img">
+                <img 
+                srcset="img/sub-links.png 2x"
+                src="img/sub-links.png"
+                    alt="Links for Page">
+            </div>
+
+            <div class="component__code">
+                <div class="links">
+                    <div class="links__list">
+                        <p class="links__title">Program</p>
+                        <ul class="links__section">
+                            <li class="links-item"><a href="#!"> For Individuals</a></li>
+                            <li class="links-item"><a href="#!"> For Organizations</a></li>
+                            <li class="links-item"><a href="#!"> For Coaches</a></li>
+                            <li class="links-item"><a href="#!"> Find a Coach</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="links__list">
+                        <p class="links__title">Learn</p>
+                        <ul class="links__section">
+                            <li class="links-item"><a href="#!"> Science</a></li>
+                            <li class="links-item"><a href="#!"> Saboteurs</a></li>
+                            <li class="links-item"><a href="#!"> Resources</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="links__list">
+                        <p class="links__title">Company</p>
+                        <ul class="links__section">
+                            <li class="links-item"><a href="#!"> About</a></li>
+                            <li class="links-item"><a href="#!"> Blog</a></li>
+                            <li class="links-item"><a href="#!"> Careers</a></li>
+                            <li class="links-item"><a href="#!"> Contact</a></li>
+                            <li class="links-item"><a href="#!"> Support</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="links__list">
+                        <p class="links__title">Follow Us</p>
+                        <ul class="links__section">
+                            <li class="links-item"><a href="#!"> LinkedIn <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                            <li class="links-item"><a href="#!"> Facebook <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                            <li class="links-item"><a href="#!"> Youtube <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
         </article>
+
+        <article class="component">
+            <h3 class="component__headings">footer-nav</h3>
+            <div class="component__img">
+                <img 
+                srcset="img/footer-nav.png 2x"
+                src="img/footer-nav.png"
+                    alt="Footer Nav">
+            </div>
+
+            <div class="component__code">
+                <div class="footer">
+                    <div class="footer-logo">
+                        <img src="img/p-logo.png"
+                            alt="Positive Intelligence Logo">
+                    </div>
+
+                    <div class="footer-links">
+                        <ul class="footer-list">
+                            <li class="footer-item"><a href="#!">Accessibility Statement</a></li>
+                            <li class="footer-item"><a href="#!">Terms &#38; Conditions</a></li>
+                            <li class="footer-item"><a href="#!">Privacy Policy</a></li>
+                            <li class="footer-item"> &copy;2024 Positive Intellienge</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+
     </body>
 </html>
