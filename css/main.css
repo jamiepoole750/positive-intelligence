@@ -37,6 +37,7 @@ html {
 body {
     font-family: var(--font-sans-serif);
     color: var(--black);
+    display:flex;
 }
 
 a {
@@ -65,13 +66,47 @@ p {
     font-size: 25px;
 }
 
+/** sidebar-nav */
+  
+  /**
+  * design system component on the components.html page
+  **/
+.wordmark {
+    font-size: 50px;
+    margin-right: 100px;
+}
+
+.container_component-page__main {
+    max-width: 100rem;
+}
+
+.sidebar-nav {
+    background: var(--gray-light);
+  }
+  .sidebar-nav__section {
+    margin-top: 2.5rem;
+  }
+  .sidebar-nav__heading {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .sidebar-nav__heading a {
+    text-decoration: none;
+    color: var(--black);
+  }
+  .sidebar-nav__list {
+    list-style: none;
+    padding: 0;
+  }
+  .sidebar-nav__list a {
+    text-decoration: none;
+  }
+  
+
 /** images */
 img {
     display: block;
-}
-
-.component img {
-    max-width: initial;
 }
 
 .component__img,
@@ -294,7 +329,7 @@ img {
     border-radius: 1rem;
     padding: 1rem;
     text-align: left;
-    height: 500px;
+    height: 600px;
     width: 470px;
     background: var(--blue);
     padding: 70px 0px 0px 50px;
@@ -313,7 +348,7 @@ img {
     border-radius: 1rem;
     padding: 1rem;
     text-align: left;
-    height: 500px;
+    height: 600px;
     width: 470px;
     background: rgb(154, 228, 229, 0.5);
     padding: 70px 0px 0px 50px;
