@@ -46,11 +46,11 @@ h1 {
 }
 
 h2 {
-    font-size: 2.3rem;
+    font-size: 3.5rem;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 p {
@@ -164,50 +164,60 @@ img {
     border-radius: 1rem;
     padding: 1rem;
     text-align: left;
-    height: 390px;
-    width: 300px;
+    height: 600px;
+    width: 500px;
     background: var(--yellow);
     margin: 1rem 0;
 }
 
 .card-img {
-    max-height: 200px;
-    margin-left: 25%;
-    margin-top: 25%;
+    max-height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
 }
 
 .card__two {
     border-radius: 1rem;
     padding: 1rem;
     text-align: left;
-    height: 390px;
-    width: 300px;
+    height: 600px;
+    width: 500px;
     background: var(--blue);
     margin: 1rem 0;
 }
 
 .card-img__two {
-    max-height: 200px;
-    margin-left: 10px;
-    margin-top: 25%;
+    max-height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
 }
 
 .card__three {
     border-radius: 1rem;
     padding: 1rem;
     text-align: left;
-    height: 600px;
-    width: 600px;
+    height: 840px;
+    width: 840px;
     background: var(--orange);
     margin: 1rem 0;
 }
 
 .card-img__three {
-    max-height: 270px;
-    margin-left: 30%;
-    margin-top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+    max-height: 400px;
 }
 
+.card__title {
+    margin-top: 20px;
+    margin-left: 20px;
+}
 /** card three percentages */
 
 .percentage {
@@ -218,17 +228,17 @@ img {
 }
 
 .percentage-number {
-    font-size: 45px;
+    font-size: 4rem;
     font-family: var(--font-sans-serif);
     margin: 0px;
     padding-top: 50px;
 }
 
 .percentage-statement {
-    font-size: 18px;
+    font-size: 1.6rem;
     font-family: var(--font-serif);
-    margin: 0px;
-    padding: 0px;
+    margin-top: 0px;
+    margin-right: 10px;
 }
 
 /** body-molecule */
@@ -242,23 +252,28 @@ img {
 }
 
 .body-tagline {
-    font-size: 1rem;
+    padding-top: 8rem;
+    font-size: 1.5rem;
 }
 
 .body-title {
-    max-width: 40rem;
+    max-width: 60rem;
+    padding-bottom: 4rem;
 }
 
 .body-survey {
-    margin-top: 30px;
-    font-size: 12px;
+    margin-top: 3rem;
+    font-size: 22px;
 }
+
+
 
 /** as featured in */
 .featured-title {
     font-family: var(--font-sans-serif);
-    font-size: 1.5rem;
+    font-size: 3rem;
     text-align: center;
+    margin-top: 10rem;
 }
 
 .featured {
@@ -269,11 +284,13 @@ img {
 }
 
 .featured-logo {
-    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .featured-img img{
-    max-width: 22rem;
+    max-width: 30rem;
+    margin-top: 2rem;
 }
    
 
