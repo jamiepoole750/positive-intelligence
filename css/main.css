@@ -81,9 +81,10 @@ img {
 
 /** nav bar */
 .container {
+    margin-top: 3rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
   }
 
 .nav-bar-list {
@@ -95,22 +96,23 @@ img {
 }
   
   .nav-item {
-    margin: 20px;
+    margin: 15px;
+    font-size: 12px;
   }
 
   .nav-button {
     display: inline-block;
     border-radius: 2rem;
-    padding: 0.5rem 1.5rem;
+    padding: 8px 1.3rem;
     text-decoration: none;
     color: white;
     background: black;
     margin-top: 0px;
-    
+    font-size: 12px;
   }
 
 .nav-logo img{
-    max-width: 10rem;
+    max-width: 7rem;
 }
 
 /** cover-molecules */
