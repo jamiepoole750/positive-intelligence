@@ -43,7 +43,7 @@ a {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 h2 {
@@ -85,6 +85,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    margin-bottom: -8rem;
   }
 
 .nav-bar-list {
@@ -120,7 +121,7 @@ img {
     margin-top: 0px;
     padding-top: 0px;
     margin-bottom: 5rem;
-    max-width: 45rem;
+    max-width: 40rem;
     position: relative;
     top: 17.5rem;
 }
@@ -133,8 +134,8 @@ img {
 
 .cover__section-main {
     background: linear-gradient(#ffc524,#86d5a0);
-    margin-left: -20rem;
-    margin-right: -20rem;
+    margin-left: -25rem;
+    margin-right: -25rem;
     padding-top: 15rem;
 }
 
@@ -149,7 +150,7 @@ img {
 
 .cover__info {
     max-width: 20rem;
-    margin-left: 20rem;
+    margin-left: 25rem;
     margin-right: 0px;
 }
 
