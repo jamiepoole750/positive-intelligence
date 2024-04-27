@@ -6,7 +6,7 @@
 
 This is a project for the Web Development course at Minneapolis College of Art and Design, In this example, we dissect the excellment [Positive Intelligence Homepage] (https://www.positiveintelligence.com/), and then develop a simple component library from our study. 
 
-- [Initial Design Study] (assets/web-study.pdf)
+- [Initial Design Study] (/assets/web-study.pdf/)
 - [Component Library] ()
 - [Homepage Recreation] ()
 
