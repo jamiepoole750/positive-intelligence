@@ -322,41 +322,6 @@ img {
     font-size: 11px;
 }
 
-/** explore-molecule */
-.explore-content {
-    display: flex;
-    justify-content: center;
-}
-
-.card__four {
-    border-radius: 1rem;
-    padding: 1rem;
-    text-align: left;
-    height: 600px;
-    width: 470px;
-    background: var(--blue);
-    padding: 70px 0px 0px 50px;
-}
-
-.card__four-img {
-    max-height: 25%;
-}
-
-.read-more__para {
-    max-width: 25rem;
-}
-
-.card__five {
-    margin-left: 10px;
-    border-radius: 1rem;
-    padding: 1rem;
-    text-align: left;
-    height: 600px;
-    width: 470px;
-    background: rgb(154, 228, 229, 0.5);
-    padding: 70px 0px 0px 50px;
-}
-
 /** success-section */
 
 .success {
@@ -445,6 +410,50 @@ img {
 .discover__img {
     max-height: 40rem;
     margin-left: 40px;
+}
+
+/** explore-molecule */
+.explore-content {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0rem 10rem 0rem;
+}
+
+.card__four {
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: left;
+    height: 570px;
+    width: 470px;
+    background: var(--blue);
+    padding: 70px 0px 0px 50px;
+}
+
+.card__four-img {
+    max-height: 10rem;
+}
+
+.card__five-img {
+    max-height: 8rem; 
+    margin-bottom: 3.5rem;
+}
+.read-more__title {
+    max-width: 15rem;
+}
+
+.read-more__para {
+    max-width: 18rem;
+}
+
+.card__five {
+    margin-left: 10px;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: left;
+    height: 570px;
+    width: 470px;
+    background: rgb(154, 228, 229, 0.5);
+    padding: 70px 0px 0px 50px;
 }
 
 /** subscription-molecule */
