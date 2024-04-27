@@ -68,11 +68,17 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    margin-bottom: -8rem;
+    margin: 0rem -23rem -8rem -23rem;
+    position: sticky; 
+    top: 0;
+    z-index: 999;
+    background-color: var(--white);
+    padding: 20px 0px 20px 0px;
   }
 
 .nav__bar-logo img{
     max-width: 6.5rem;
+    margin-left: 23rem;
 }
 
 .nav__bar-list {
@@ -81,6 +87,7 @@ h3 {
     flex-direction: row;
     font-size: medium;
     margin: 0;
+    margin-right: 23rem;
 }
   
 .nav__bar-item {
