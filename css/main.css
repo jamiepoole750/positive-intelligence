@@ -462,6 +462,7 @@ h3 {
     border-bottom: 0.5px solid var(--gray);
     margin-top: 5px;
     max-width: 14rem;
+    max-height: 2rem;
 }
 
 .sub__subscribe-name {
@@ -473,7 +474,8 @@ h3 {
 .sub__subscribe-arrow {
     color: var(--gray);
     font-size: 12px;
-    margin-bottom: 5px;
+    position: relative;
+    bottom: 10px;
 }
 
 /**links */
