@@ -152,7 +152,7 @@ h3 {
 }
 
 /** body-atoms*/
-.card {
+.body__card-one {
     border-radius: 1rem;
     padding: 1rem;
     text-align: left;
@@ -162,7 +162,7 @@ h3 {
     margin: 1rem 0;
 }
 
-.card-img {
+.card__img {
     max-height: 140px;
     display: block;
     margin-left: auto;
@@ -170,7 +170,7 @@ h3 {
     margin-top: 3rem;
 }
 
-.card__two {
+.body__card-two {
     border-radius: 1rem;
     padding: 1rem;
     text-align: left;
@@ -180,7 +180,7 @@ h3 {
     margin: 1rem 0;
 }
 
-.card-img__two {
+.card__img-two {
     max-height: 140px;
     display: block;
     margin-left: auto;
@@ -188,7 +188,7 @@ h3 {
     margin-top: 2rem;
 }
 
-.card__three {
+.body__card-three {
     border-radius: 1rem;
     padding: 1rem;
     text-align: left;
@@ -198,7 +198,7 @@ h3 {
     margin: 1rem 0;
 }
 
-.card-img__three {
+.card__img-three {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -220,41 +220,41 @@ h3 {
     max-width: 30rem;
 }
 
-.percentage-number {
+.percentage__info-number {
     font-family: var(--font-sans-serif);
     margin: 0px;
     padding-top: 50px;
     
 }
 
-.percentage-statement {
+.percentage__info-statement {
     font-size: 12px;
     font-family: var(--font-serif);
     margin: 0px;
 }
 
-.percentage-info-middle {
+.percentage__info-middle {
     padding-right: 3rem;
     padding-left: 3rem;
 }
 
 
 /** body-molecule */
-.body-content {
+.body__content {
     display: flex;
     justify-content: center;
 }
 
-.card__three {
+.body__card-three {
     margin: 10px;
 }
 
-.body-tagline {
+.body__tagline {
     padding-top: 4rem;
     font-size: 12px;
 }
 
-.body-title {
+.body__title {
     max-width: 40rem;
     padding-bottom: 3rem;
 }
