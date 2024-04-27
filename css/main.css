@@ -171,14 +171,14 @@ img {
     border-radius: 1rem;
     padding: 1rem;
     text-align: left;
-    height: 370px;
-    width: 300px;
+    height: 300px;
+    width: 350px;
     background: var(--yellow);
     margin: 1rem 0;
 }
 
 .card-img {
-    max-height: 200px;
+    max-height: 140px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -189,26 +189,26 @@ img {
     border-radius: 1rem;
     padding: 1rem;
     text-align: left;
-    height: 370px;
-    width: 300px;
+    height: 300px;
+    width: 350px;
     background: var(--blue);
     margin: 1rem 0;
 }
 
 .card-img__two {
-    max-height: 150px;
+    max-height: 140px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .card__three {
     border-radius: 1rem;
     padding: 1rem;
     text-align: left;
-    height: 550px;
-    width: 600px;
+    height: 430px;
+    width: 800px;
     background: var(--orange);
     margin: 1rem 0;
 }
@@ -218,35 +218,39 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
-    max-height: 270px;
+    max-height: 200px;
 }
 
 .card__title {
-    margin-top: 8px;
-    margin-left: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 /** card three percentages */
 
 .percentage {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    grid-template-columns: row;
     text-align: left;
-    
+    margin-left: 10px;
+    max-width: 30rem;
 }
 
 .percentage-number {
-    font-size: 45px;
     font-family: var(--font-sans-serif);
     margin: 0px;
     padding-top: 50px;
-    padding-left: 5px
+    
 }
 
 .percentage-statement {
-    font-size: 18px;
+    font-size: 12px;
     font-family: var(--font-serif);
     margin: 0px;
-    margin: 0px 0px 0px 5px;
+}
+
+.percentage-info-middle {
+    padding-right: 3rem;
+    padding-left: 3rem;
 }
 
 
