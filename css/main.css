@@ -54,9 +54,6 @@ h3 {
     font-size: 12px;
 }
 
-p {
-    font-size: 16px;
-}
 
 
 .typo-default {
@@ -94,7 +91,7 @@ img {
   
   .nav-item {
     margin: 15px;
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .nav-button {
@@ -105,7 +102,7 @@ img {
     color: white;
     background: black;
     margin-top: 0px;
-    font-size: 12px;
+    font-size: 11px;
   }
 
 .nav-logo img{
@@ -508,10 +505,11 @@ img {
 /**links */
 .links {
     display: flex;
+    padding-left: 50px;
 }
 
 .links__list {
-   padding-right: 55px;
+    padding-left: 30px;
 }
 
 .links__title {
@@ -522,10 +520,13 @@ img {
     margin-left: 0px;
     padding-left: 0px;
     font-size: 11px;
+    padding: 0px;
 }
 
 .links-item {
     list-style: none;  
+    max-width: 7rem;
+    padding: 0px;
 }
 
 
