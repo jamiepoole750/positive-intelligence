@@ -391,13 +391,13 @@ h3 {
 }
 
 /** explore-molecule */
-.explore-content {
+.explore {
     display: flex;
     justify-content: center;
     margin: 5rem 0rem 10rem 0rem;
 }
 
-.card__four {
+.explore__card-one {
     border-radius: 1rem;
     padding: 1rem;
     text-align: left;
@@ -407,23 +407,11 @@ h3 {
     padding: 70px 0px 0px 50px;
 }
 
-.card__four-img {
+.explore__card-img-one {
     max-height: 10rem;
 }
 
-.card__five-img {
-    max-height: 8rem; 
-    margin-bottom: 3.5rem;
-}
-.read-more__title {
-    max-width: 15rem;
-}
-
-.read-more__para {
-    max-width: 18rem;
-}
-
-.card__five {
+.explore__card-two {
     margin-left: 10px;
     border-radius: 1rem;
     padding: 1rem;
@@ -434,30 +422,41 @@ h3 {
     padding: 70px 0px 0px 50px;
 }
 
+.explore__card-img-two{
+    max-height: 8rem; 
+    margin-bottom: 3.5rem;
+}
+
+.info__title {
+    max-width: 15rem;
+}
+
+.info__para {
+    max-width: 18rem;
+}
+
+
 /** subscription-molecule */
-.sub-components {
+.sub {
     margin: 3rem 0px 15rem 0rem;
     border-top: 0.5px solid var(--gray);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.sub-subscribe {
-    margin-top: 20px;
-}
-
-.sub {
+.sub__links {
     margin-top: 33px;
 }
 
 
 /** subscription-atoms */
-.subscribe {
+.sub__subscribe-info {
+    margin-top: 20px;
     max-width: 12rem;
     font-size: 16px;
 }
 
-.subscribe__email {
+.sub__subscribe-email {
     display: flex;
     align-content: center;
     border-bottom: 0.5px solid var(--gray);
@@ -465,40 +464,41 @@ h3 {
     max-width: 14rem;
 }
 
-.subscribe__name {
+.sub__subscribe-name {
     font-size: 11px;
     margin-right: 11.5rem;
     margin-bottom: 5px;
 }
 
-.subscribe__arrow {
+.sub__subscribe-arrow {
     color: var(--gray);
     font-size: 12px;
     margin-bottom: 5px;
 }
 
 /**links */
-.links {
+.sub__component-links {
     display: flex;
     padding-left: 50px;
+    margin-top: 15px;
 }
 
-.links__list {
+.component-list {
     padding-left: 30px;
 }
 
-.links__title {
+.component-title {
     font-size: 11px;
 }
 
-.links__section {
+.component-links {
     margin-left: 0px;
     padding-left: 0px;
     font-size: 11px;
     padding: 0px;
 }
 
-.links-item {
+.component-item {
     list-style: none;  
     max-width: 7rem;
     padding: 0px;
@@ -513,17 +513,17 @@ h3 {
     justify-content: center;
 }
 
-.footer-logo img{
+.footer__logo img{
     max-width: 2rem;
 }
 
-.footer-list {
+.footer__links-list {
     display: flex;
     list-style: none;
     margin-left: 25rem;
 }
 
-.footer-item {
+.list-item {
     justify-content: flex-end;
     font-size: 9px;
     padding-left: 20px;
