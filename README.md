@@ -8,7 +8,7 @@ This is a project for the Web Development course at Minneapolis College of Art a
 
 - [Initial Design Study] (https://github.com/jamiepoole750/positive-intelligence/blob/main/assets/web-study.pdf)
 - [Component Library] (https://jpoole.studio.mcad.edu/webdev1/positive-intelligence/components/)
-- [Homepage Recreation] ()
+- [Homepage Recreation] (https://jpoole.studio.mcad.edu/webdev1/positive-intelligence/)
 
 ## Author
 
