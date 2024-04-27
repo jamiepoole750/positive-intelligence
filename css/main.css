@@ -8,6 +8,7 @@
     --blue: #9ae4e5;
     --green: #86d5a0;
     --gray: #c7c6c6;
+    --dark_gray:#777777;
 }
 
 html {
@@ -458,8 +459,8 @@ img {
 
 /** subscription-molecule */
 .sub-components {
-    margin-top: 40px;
-    border-top: 1px solid var(--gray);
+    margin: 3rem 0px 15rem 0rem;
+    border-top: 0.5px solid var(--gray);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -476,15 +477,15 @@ img {
 /** subscription-atoms */
 .subscribe {
     max-width: 12rem;
+    font-size: 16px;
 }
 
 .subscribe__email {
     display: flex;
     align-content: center;
-    border-bottom: 1px solid var(--gray);
+    border-bottom: 0.5px solid var(--gray);
     margin-top: 5px;
     max-width: 14rem;
-    margin-bottom: 20px;
 }
 
 .subscribe__name {
@@ -505,7 +506,7 @@ img {
 }
 
 .links__list {
-   padding-right: 60px;
+   padding-right: 55px;
 }
 
 .links__title {
@@ -523,33 +524,28 @@ img {
 }
 
 
-
 /** footer */
 .footer {
-    margin-top: 40px;
+    margin: 40px 0px 40px 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .footer-logo img{
-    max-width: 2.5rem;
-}
-
-.footer-links {
-    margin-left: 25rem;
+    max-width: 2rem;
 }
 
 
 .footer-list {
     display: flex;
     list-style: none;
+    margin-left: 25rem;
 }
 
 .footer-item {
     justify-content: flex-end;
-    font-size: 10px;
-    color: var(--gray);
+    font-size: 9px;
     padding-left: 20px;
-
+    color: var(--dark_gray);
 }
