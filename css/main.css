@@ -259,14 +259,14 @@ h3 {
     padding-bottom: 3rem;
 }
 
-.body-survey {
+.body__survey {
     margin-top: 3rem;
     font-size: 12px;
 }
 
 
 /** featured */
-.featured-title {
+.featured__title {
     font-family: var(--font-sans-serif);
     font-size: 1.5rem;
     text-align: center;
@@ -279,20 +279,14 @@ h3 {
     text-align: center;  
 }
 
-.featured-logo {
+.featured__logo {
     margin-left: auto;
     margin-right: auto;
 }
 
-.featured-img img{
+.featured__img-logo{
     max-width: 15rem;
     margin: 1rem 0rem 5rem 0rem;
-}
-
-.featured-img-middle img{
-    max-width: 20rem;
-    margin: 1rem 0rem 5rem 0rem;
-    padding: 0px 60px 0px 60px;
 }
    
 
