@@ -12,5 +12,5 @@ This is a project for the Web Development course at Minneapolis College of Art a
 
 ## Author
 
-Project Code: [Jamie Poole] 
+Project Code: Jamie Poole
 Source Design: [Positive Intelligence](https://www.positiveintelligence.com/)
