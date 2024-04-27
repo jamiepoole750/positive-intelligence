@@ -59,7 +59,7 @@ h4 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 
@@ -123,7 +123,7 @@ img {
     margin-bottom: 5rem;
     max-width: 40rem;
     position: relative;
-    top: 17.5rem;
+    top: 16.5rem;
 }
 
 .cover-arrow {
@@ -140,33 +140,35 @@ img {
 }
 
 .cover__section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     align-content: center;
-    padding: 5rem 0rem 5rem 0rem;
-    margin-top: 0px;
+    padding: 6rem 0rem 6rem 0rem;
+
 
 }
 
 .cover__info {
     max-width: 20rem;
     margin-left: 25rem;
-    margin-right: 0px;
 }
 
 .cover__info-2 {
-    max-width: 30rem;
-    margin-top: 7rem;
-    margin-left: 20rem;
+    max-width: 22.5rem;
+    margin-top: 2rem;
+    margin-left: 25rem;
 }
 
 .cover__img {
-    max-height: 35rem;
-    margin-right: -20px;
-    margin-left: 0px;
-
+    max-height: 27rem;
+    margin-left: 7rem;
+    margin-top: -5rem;
 }
 
+.cover__img-2 {
+    max-height: 22rem;
+    margin-left: 7rem;
+    margin-top: -5rem;
+}
 
 /** body-atoms*/
 .card {
@@ -400,7 +402,7 @@ img {
 
 .discover__main {
     background: var(--orange);
-    margin: 3rem -20rem 0rem -20rem;
+    margin: 3rem -25rem 0rem -25rem;
     display: flex;
     align-content: center;
     padding: 6rem 0rem 6rem 0rem;
